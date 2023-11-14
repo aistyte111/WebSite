@@ -18,6 +18,8 @@ p, li {
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
+    color: rgb(20, 78, 20);
+    text-align: center;
 }
 body {
     width: 600px;
@@ -29,7 +31,7 @@ body {
 h1 {
     margin: 0;
     padding: 20px 0;
-    color: c
+    color: whitesmoke;
     text-shadow: 3px 3px 10px rgb(201, 24, 24);
 }
 img {
@@ -43,7 +45,26 @@ html {
 body {
     width: 600px;
     margin: 0 auto;
-    background-color: #ff9500;
+    background-color: #37afb8;
     padding: 0 20px 20px 20px;
-    border: 5px solid rgb(218, 20, 20);
+    border: 5px solid rgb(204, 173, 173);
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(46, 141, 141);
+    text-align: center;
+}
+a:hover{
+    color: black;
+}
+
+input:focus {
+    color: red;
+    background-color: black;
+}
+
+* {
+    margin: 0;
 }
